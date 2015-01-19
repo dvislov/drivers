@@ -1,4 +1,8 @@
 (function() {
-  console.log("It's a CoffeScript compile test!");
+  $(document).ready(function() {
+    return $('.logo').click(function() {
+      return $('.aside').toggleClass('aside-closed');
+    });
+  });
 
 }).call(this);

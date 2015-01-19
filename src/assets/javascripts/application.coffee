@@ -1,1 +1,5 @@
-console.log "It's a CoffeScript compile test!"
+# Open / close sidebar
+
+$(document).ready ->
+  $('.logo').click ->
+    $('.aside').toggleClass('aside-closed')
