@@ -2,4 +2,4 @@
 
 $(document).ready ->
   $('.logo').click ->
-    $('.aside').toggleClass('aside-closed')
+    $('.main').toggleClass('aside-closed')
