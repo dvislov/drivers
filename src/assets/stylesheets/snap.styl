@@ -1,0 +1,23 @@
+// Open-close sidebar animation
+.aside
+  width 254px
+  padding 0 28px
+  transition: all 300ms ease
+  .logo-small
+    display none
+
+.content
+  margin-left 310px
+  transition: all 300ms ease
+
+.aside-closed
+  .content
+    margin-left 78px
+  .aside
+    width 46px
+    padding 0 16px
+    .logo-small
+      display block
+    .logo-full,
+    .nav
+      display none

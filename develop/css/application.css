@@ -440,47 +440,17 @@ body {
 .main {
   height: 100%;
 }
-.content {
-  margin-left: 310px;
-  transition: all 300ms ease;
-}
-.wysiwyg-content {
-  padding: 42px;
-}
-.wysiwyg-content h1,
-.wysiwyg-content h2 {
-  margin-top: 0;
-}
-.wysiwyg-content h1 {
-  font-size: 36px;
-  line-height: 43px;
-  font-weight: 400;
-}
-.wysiwyg-content h2 {
-  font-size: 24px;
-  line-height: 28px;
-  font-weight: 400;
-}
-.wysiwyg-content p {
-  font-size: 18px;
-  line-height: 21px;
-  font-weight: 300;
-}
-.wysiwyg-content p + h2 {
-  padding-top: 90px;
-}
 .aside {
-  background-color: #000;
-  height: 100%;
   width: 254px;
   padding: 0 28px;
   transition: all 300ms ease;
-  overflow: hidden;
-  float: left;
-  position: fixed;
 }
 .aside .logo-small {
   display: none;
+}
+.content {
+  margin-left: 310px;
+  transition: all 300ms ease;
 }
 .aside-closed .content {
   margin-left: 78px;
@@ -494,6 +464,16 @@ body {
 }
 .aside-closed .aside .logo-full,
 .aside-closed .aside .nav {
+  display: none;
+}
+.aside {
+  background-color: #000;
+  height: 100%;
+  overflow: hidden;
+  float: left;
+  position: fixed;
+}
+.aside .logo-small {
   display: none;
 }
 .logo {
@@ -519,4 +499,29 @@ body {
 .nav-link {
   color: #fff;
   text-decoration: none;
+}
+.wysiwyg-content {
+  padding: 42px;
+}
+.wysiwyg-content h1,
+.wysiwyg-content h2 {
+  margin-top: 0;
+}
+.wysiwyg-content h1 {
+  font-size: 36px;
+  line-height: 43px;
+  font-weight: 400;
+}
+.wysiwyg-content h2 {
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: 400;
+}
+.wysiwyg-content p {
+  font-size: 18px;
+  line-height: 21px;
+  font-weight: 300;
+}
+.wysiwyg-content p + h2 {
+  padding-top: 90px;
 }
