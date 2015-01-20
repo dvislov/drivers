@@ -1,0 +1,16 @@
+doctype html
+html
+  head
+    include shared/head
+  body
+    .main.aside-closed
+      include shared/aside
+
+      .content
+        - var n = 0
+          .drivers-gallery
+            while n < 9
+              .driver-item(style="background-image:url('http://lorempixel.com/g/640/25#{n}')")
+              - n++
+
+    include shared/footer

@@ -1,0 +1,26 @@
+.drivers-gallery
+  font-size 0
+.driver-item
+  display inline-block
+  height 220px
+  width 33.3%
+  background-repeat no-repeat
+  background-position center center
+  position relative
+  &:after
+    content ''
+    position absolute
+    width 100%
+    height 100%
+    background #000
+    opacity 0
+    transition opacity 300ms ease
+
+.drivers-gallery
+  &:hover
+    .driver-item
+      &:after
+        opacity 0.5
+      &:hover
+        &:after
+          opacity 0
