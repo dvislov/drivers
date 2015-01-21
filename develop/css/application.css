@@ -466,8 +466,14 @@ body {
 .aside-closed .aside .nav {
   display: none;
 }
+.driver .aside {
+  background: rgba(0,0,0,0.5);
+}
+.driver .aside-closed .aside {
+  background: #000;
+}
 .aside {
-  background-color: #000;
+  background: #000;
   height: 100%;
   overflow: hidden;
   float: left;
