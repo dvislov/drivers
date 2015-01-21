@@ -581,6 +581,10 @@ body {
   font-size: 36px;
   margin: 0 0 30px;
 }
+.route-map {
+  display: block;
+  margin-bottom: 10px;
+}
 .route-namelink {
   display: block;
   margin-bottom: 30px;
