@@ -652,3 +652,8 @@ body {
 .drivers-gallery:hover .driver-item:hover:after {
   opacity: 0;
 }
+.driver {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
