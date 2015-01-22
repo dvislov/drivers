@@ -561,10 +561,18 @@ body {
 .no-route-info .route-summary {
   display: none;
 }
+.driver .route-summary {
+  opacity: 1;
+}
 .route-summary {
   position: absolute;
   bottom: 28px;
   width: 254px;
+  opacity: 0;
+  transition: opacity 300ms ease;
+}
+.route-summary.visible {
+  opacity: 1;
 }
 .route-summary a {
   color: #8e8e8e;
